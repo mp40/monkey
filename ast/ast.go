@@ -39,7 +39,7 @@ func (ls *LetStatement) TokenLiteral() string { return ls.Token.Literal }
 
 type Identifier struct {
 	Token token.Token
-	value string
+	Value string
 }
 
 func (i *Identifier) expressionNode()      {}
